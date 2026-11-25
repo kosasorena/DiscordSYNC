@@ -1,0 +1,6 @@
+# Discord Bridge (bot.py) - Render の Web Service 用
+# DiscordのVC通話は2026-03以降 DAVE(E2EE) 必須。discord.py 2.7.x + davey が必要です。
+# davey 0.2 系は discord.py 2.7.1 と非互換 (報告あり) なので 0.1.7 に固定しています。
+discord.py[voice]==2.7.1
+davey==0.1.7
+aiohttp>=3.9,<4
